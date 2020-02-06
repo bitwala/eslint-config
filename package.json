@@ -7,7 +7,9 @@
     "base.js",
     "base.production.js",
     "react.js",
-    "node.js"
+    "react.production.js",
+    "node.js",
+    "node.production.js"
   ],
   "publishConfig": {
     "access": "public"
