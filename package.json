@@ -5,7 +5,6 @@
   "description": "ESLint preset for Bitwala",
   "files": [
     "base.js",
-    "base.production.js",
     "react.js",
     "react.production.js",
     "node.js",
