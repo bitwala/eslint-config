@@ -1,6 +1,6 @@
 {
   "name": "@bitwala/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "description": "ESLint preset for Bitwala",
   "files": [
