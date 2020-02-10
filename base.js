@@ -6,11 +6,13 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:import/order",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import:typescript",
     "plugin:jest/recommended",
     "plugin:prettier/recommended"
   ],
-  plugins: ["@typescript-eslint", "prettier", "implicit-dependencies", "jest"],
+  plugins: ["@typescript-eslint", "prettier", "implicit-dependencies", "jest", "import"],
   rules: {
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
