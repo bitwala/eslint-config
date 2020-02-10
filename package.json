@@ -5,9 +5,10 @@
   "description": "ESLint preset for Bitwala",
   "files": [
     "base.js",
-    "base.production.js",
     "react.js",
-    "node.js"
+    "react.production.js",
+    "node.js",
+    "node.production.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -18,6 +19,7 @@
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.7.0",
     "eslint-plugin-implicit-dependencies": "1.0.4",
+    "eslint-plugin-import": "2.20.1",
     "eslint-plugin-jest": "23.6.0",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.17.0",
