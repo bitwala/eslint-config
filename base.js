@@ -29,6 +29,7 @@ module.exports = {
     camelcase: "off",
     "sort-keys": "off",
     "import/order": "error",
+    "import/no-internal-modules": "error",
     "no-console": "off",
     "no-restricted-globals": "error",
     "no-unused-expressions": "off",
