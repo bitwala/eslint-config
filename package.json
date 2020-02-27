@@ -12,17 +12,6 @@
   "engines": {
     "node": ">=8.10.0"
   },
-  "eslintConfig": {
-    "plugins": [
-      "self"
-    ],
-    "extends": [
-      "plugin:self/base",
-      "plugin:self/node",
-      "plugin:self/react",
-      "plugin:self/typescript"
-    ]
-  },
   "publishConfig": {
     "access": "public"
   },
