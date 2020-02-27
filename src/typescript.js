@@ -13,7 +13,6 @@ module.exports = {
     sourceType: "module"
   },
   plugins: ["@typescript-eslint"],
-  files: ["*.ts", "*.tsx"],
   rules: {
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
