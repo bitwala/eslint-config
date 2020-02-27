@@ -3,7 +3,7 @@ module.exports = {
     react: {
       createClass: "createReactClass",
       pragma: "React",
-      version: "16.8.6"
+      version: "detect"
     }
   },
   env: {
