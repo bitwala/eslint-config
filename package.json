@@ -6,9 +6,8 @@
   "files": [
     "base.js",
     "react.js",
-    "react.production.js",
-    "node.js",
-    "node.production.js"
+    "typescript.js",
+    "node.js"
   ],
   "publishConfig": {
     "access": "public"
