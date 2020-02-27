@@ -2,5 +2,6 @@ module.exports = {
   env: {
     node: true
   },
-  extends: ["./base.js"]
+  extends: ["./base.js", "plugin:node/recommended"],
+  plugins: ["eslint-plugin-node"]
 };
