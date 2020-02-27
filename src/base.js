@@ -23,7 +23,7 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": "warn",
     "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-explicit-any": "warn",
-    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/camelcase": ["error", { properties: "never" }],
     "implicit-dependencies/no-implicit": "error",
     camelcase: "off",
