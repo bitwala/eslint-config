@@ -9,7 +9,7 @@ module.exports = {
   env: {
     browser: true
   },
-  extends: ["./base.js", "./typescript.js", "plugin:react/recommended"],
+  extends: ["./base.js", "plugin:react/recommended"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
