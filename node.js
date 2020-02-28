@@ -6,5 +6,11 @@ module.exports = {
     ecmaVersion: 2018
   },
   extends: ["./base.js", "plugin:node/recommended"],
-  plugins: ["eslint-plugin-node"]
+  plugins: ["eslint-plugin-node"],
+  rules: {
+    "node/no-extraneous-import": "warn",
+    "node/no-missing-import": "off",
+    "node/no-unpublished-import": "off",
+    "node/no-unsupported-features/es-syntax": "off"
+  }
 };
