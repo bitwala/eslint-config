@@ -5,6 +5,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020
   },
-  extends: ["./base.js", "plugin:node/recommended"],
+  extends: ["./base.js", "./typescript.js", "plugin:node/recommended"],
   plugins: ["eslint-plugin-node"]
 };
