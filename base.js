@@ -19,6 +19,7 @@ module.exports = {
     "import/no-unresolved": "off",
     "no-console": "error",
     "no-restricted-globals": "error",
+    "no-use-before-define": "off",
     "no-unused-expressions": "off",
     "no-useless-constructor": "error",
     "no-var": "error",

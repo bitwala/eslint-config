@@ -21,7 +21,15 @@ module.exports = {
     "@typescript-eslint/no-untyped-public-signature": "error",
     "@typescript-eslint/no-inferrable-types": "off",
     "@typescript-eslint/no-non-null-assertion": "warn",
-    "@typescript-eslint/no-use-before-define": "error",
+    "@typescript-eslint/no-use-before-define": [
+      "warn",
+      {
+        functions: false,
+        classes: false,
+        variables: false,
+        typedefs: false
+      }
+    ],
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/camelcase": ["error", { properties: "never" }]
