@@ -12,27 +12,31 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module"
   },
-  files: ["**/*.ts", "**/*.tsx"],
-  plugins: ["@typescript-eslint"],
-  rules: {
-    "@typescript-eslint/interface-name-prefix": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/no-namespace": "off",
-    "@typescript-eslint/no-unused-expressions": "error",
-    "@typescript-eslint/no-untyped-public-signature": "error",
-    "@typescript-eslint/no-inferrable-types": "off",
-    "@typescript-eslint/no-non-null-assertion": "warn",
-    "@typescript-eslint/no-use-before-define": [
-      "warn",
-      {
-        functions: false,
-        classes: false,
-        variables: false,
-        typedefs: false
+  overrides: [
+    {
+      files: ["**/*.ts", "**/*.tsx"],
+      plugins: ["@typescript-eslint"],
+      rules: {
+        "@typescript-eslint/interface-name-prefix": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-namespace": "off",
+        "@typescript-eslint/no-unused-expressions": "error",
+        "@typescript-eslint/no-untyped-public-signature": "error",
+        "@typescript-eslint/no-inferrable-types": "off",
+        "@typescript-eslint/no-non-null-assertion": "warn",
+        "@typescript-eslint/no-use-before-define": [
+          "warn",
+          {
+            functions: false,
+            classes: false,
+            variables: false,
+            typedefs: false
+          }
+        ],
+        "@typescript-eslint/no-explicit-any": "warn",
+        "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/camelcase": ["error", { properties: "never" }]
       }
-    ],
-    "@typescript-eslint/no-explicit-any": "warn",
-    "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/camelcase": ["error", { properties: "never" }]
-  }
+    }
+  ]
 };
