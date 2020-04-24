@@ -12,6 +12,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module"
   },
+  files: ["**/*.ts", "**/*.tsx"],
   plugins: ["@typescript-eslint"],
   rules: {
     "@typescript-eslint/interface-name-prefix": "off",
