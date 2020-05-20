@@ -2,18 +2,18 @@ module.exports = {
   extends: [
     "./base.js",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
   ],
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true
-    },
-    ecmaVersion: 2018,
-    sourceType: "module"
-  },
   overrides: [
     {
+      parser: "@typescript-eslint/parser",
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+        ecmaVersion: 2018,
+        sourceType: "module",
+      },
       files: ["**/*.ts", "**/*.tsx"],
       plugins: ["@typescript-eslint"],
       rules: {
@@ -30,13 +30,13 @@ module.exports = {
             functions: false,
             classes: false,
             variables: false,
-            typedefs: false
-          }
+            typedefs: false,
+          },
         ],
         "@typescript-eslint/no-explicit-any": "warn",
         "@typescript-eslint/no-unused-vars": "error",
-        "@typescript-eslint/camelcase": ["error", { properties: "never" }]
-      }
-    }
-  ]
+        "@typescript-eslint/camelcase": ["error", { properties: "never" }],
+      },
+    },
+  ],
 };
