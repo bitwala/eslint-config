@@ -23,7 +23,7 @@ module.exports = {
         "@typescript-eslint/no-unused-expressions": "error",
         "@typescript-eslint/no-untyped-public-signature": "error",
         "@typescript-eslint/no-inferrable-types": "off",
-        "@typescript-eslint/no-non-null-assertion": "warn",
+        "@typescript-eslint/no-non-null-assertion": "error",
         "@typescript-eslint/no-use-before-define": [
           "warn",
           {
