@@ -40,6 +40,8 @@ module.exports = {
             extendDefaults: true,
             types: {
               object: false,
+              // Enable this rule at some point
+              "{}": false,
             },
           },
         ],
