@@ -34,6 +34,15 @@ module.exports = {
         ],
         "@typescript-eslint/no-explicit-any": "warn",
         "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/ban-types": [
+          "error",
+          {
+            extendDefaults: true,
+            types: {
+              object: false,
+            },
+          },
+        ],
       },
     },
   ],
