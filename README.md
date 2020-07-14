@@ -32,3 +32,12 @@ module.exports = {
   ],
 };
 ```
+
+### Create a new release
+
+1. Edit the version in the `package.json` file.
+2. `git add package.json`.
+3. Commit the changes `git commit -m vx.x.x`.
+4. Create a new git tag `git tag -a vx.x.x -m vx.x.x`.
+5. Run `yarn npm publish` to publish the package to the registry.
+6. Push the changes `git push`.
