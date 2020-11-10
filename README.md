@@ -25,7 +25,16 @@ Create a new `.eslintrc.js` for your project and add the following configuration
 
 ```js
 module.exports = {
+  extends: ["@bitwala/eslint-config/auto"],
+};
+```
+
+If you prefer to manually enable some presets use the following configuration:
+
+```js
+module.exports = {
   extends: [
+    "@bitwala/eslint-config/base",
     "@bitwala/eslint-config/react",
     "@bitwala/eslint-config/node",
     "@bitwala/eslint-config/typescript",

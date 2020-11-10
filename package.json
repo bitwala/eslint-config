@@ -1,6 +1,6 @@
 {
   "name": "@bitwala/eslint-config",
-  "version": "0.2.0",
+  "version": "0.3.6",
   "license": "MIT",
   "description": "ESLint preset for Bitwala",
   "scripts": {
@@ -10,7 +10,8 @@
     "base.js",
     "react.js",
     "typescript.js",
-    "node.js"
+    "node.js",
+    "auto.js"
   ],
   "engines": {
     "node": ">=12.0.0"
