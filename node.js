@@ -5,7 +5,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
   },
-  extends: ["./base.js", "plugin:node/recommended"],
+  extends: ["plugin:node/recommended"],
   plugins: ["eslint-plugin-node"],
   rules: {
     "node/no-extraneous-import": "error",
