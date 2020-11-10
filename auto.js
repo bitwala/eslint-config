@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires, import/order */
 const path = require("path");
 
 const packageJsonPath = path.join(process.cwd(), "package.json");
