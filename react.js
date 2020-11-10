@@ -1,22 +1,18 @@
 module.exports = {
   settings: {
     react: {
-      createClass: "createReactClass",
-      pragma: "React",
-      version: "16.8.6"
-    }
+      version: "detect",
+    },
   },
   env: {
-    browser: true
+    browser: true,
   },
-  extends: ["./base.js", "plugin:react/recommended"],
+  extends: ["plugin:react/recommended"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
-    ecmaVersion: 2018,
-    sourceType: "module"
   },
   plugins: ["react", "react-hooks"],
   rules: {
@@ -25,6 +21,6 @@ module.exports = {
     "react/jsx-boolean-value": "off",
     "react/jsx-no-target-blank": "off",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
-  }
+    "react-hooks/exhaustive-deps": "warn",
+  },
 };

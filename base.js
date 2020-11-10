@@ -1,6 +1,10 @@
 module.exports = {
   env: {
-    es6: true
+    es6: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: "module",
   },
   extends: [
     "eslint:recommended",
@@ -8,7 +12,7 @@ module.exports = {
     "plugin:import/warnings",
     "plugin:import/typescript",
     "plugin:jest/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
   ],
   plugins: ["prettier", "implicit-dependencies", "jest", "import"],
   rules: {
@@ -24,6 +28,6 @@ module.exports = {
     "no-useless-constructor": "error",
     "no-var": "error",
     "prefer-const": "error",
-    "prettier/prettier": "error"
-  }
+    "prettier/prettier": "error",
+  },
 };
