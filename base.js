@@ -28,6 +28,6 @@ module.exports = {
     "no-useless-constructor": "error",
     "no-var": "error",
     "prefer-const": "error",
-    "prettier/prettier": "error",
+    // "prettier/prettier": "error",
   },
 };
