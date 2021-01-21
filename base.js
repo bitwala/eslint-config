@@ -12,7 +12,7 @@ module.exports = {
     "plugin:import/warnings",
     "plugin:import/typescript",
     "plugin:jest/recommended",
-    "plugin:prettier/recommended",
+    // "plugin:prettier/recommended",
   ],
   plugins: ["prettier", "implicit-dependencies", "jest", "import"],
   rules: {
