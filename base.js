@@ -12,9 +12,8 @@ module.exports = {
     "plugin:import/warnings",
     "plugin:import/typescript",
     "plugin:jest/recommended",
-    // "plugin:prettier/recommended",
   ],
-  plugins: ["prettier", "implicit-dependencies", "jest", "import"],
+  plugins: ["implicit-dependencies", "jest", "import"],
   rules: {
     "implicit-dependencies/no-implicit": "error",
     camelcase: "off",
@@ -28,6 +27,5 @@ module.exports = {
     "no-useless-constructor": "error",
     "no-var": "error",
     "prefer-const": "error",
-    // "prettier/prettier": "error",
   },
 };
